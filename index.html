@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+
+    <title>Amazon Sign-In</title>
+  </head>
+  <body>
+    <div id="amazonlogo" class="img">
+      <img src="/images/amazon.png" />
+    </div>
+    <div id="page">
+      <div class="row"></div>
+      <div class="row"></div>
+      <div class="row">
+        <h1>Sign In</h1>
+        <br />
+        <label id="label" for="name">Email (phone for mobile accounts)</label>
+        <br />
+        <input type="text" id="name" placeholder="Enter Email" />
+        <div class="container">
+          <div class="row">
+            <div id="password" class="col-sm">Password</div>
+            <div id="fogopass" class="col-sm">Forgot Password</div>
+          </div>
+        </div>
+        <input type="password" id="body" placeholder="Enter Password" rows="1"/>
+        <button class="signinbutton">Continue</button>
+        <h3 class="options">Need Help?</h3>
+      </div>
+    </div>
+    <div
+      id="createnewaccount"
+      class="create-account-button col-sm centered container"
+    >
+      Create Account
+    </div>
+    <footer class="footer-content">
+      <hr />
+      <div id="conuse" class="w-50 mx-auto">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">Conditions of Use</div>
+            <div class="col-sm">Privacy Notice</div>
+            <div class="col-sm">Help</div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="copy">&copy 1996-2022, Amazon.com, Inc. or its affiliates</div>
+    </footer>
+  </body>
+</html>
